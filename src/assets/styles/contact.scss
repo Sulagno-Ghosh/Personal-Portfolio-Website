@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Josefin+Sans:wght@100;300;400;600;700&family=Montserrat:wght@100&family=Poppins:ital,wght@0,400;1,200;1,300&family=Shadows+Into+Light&family=Silkscreen&display=swap');
+
+
+.contact{
+    
+   
+    padding: 40px 15% ;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #101010;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    grid-gap: 6rem;
+}
+
+.contact-img img{
+    max-width: 100%;
+    width: 720px;
+    height: auto;
+    border-radius: 10px ;
+}
+
+.contact-form h1{
+   
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+    span{
+        color: rgb(219, 63, 63);
+    }
+
+   
+}
+
+.contact-form p{
+    
+        color: grey;
+        letter-spacing: 1px;
+        line-height: 26px;
+        font-size: 1.1rem;
+        margin-bottom: 3.8rem;
+    
+}
+
+.contact-form form{
+    z-index: 2;
+    position: relative;
+
+}
+
+.contact-form form input,
+form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+
+}
+
+
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn{
+    
+   
+    display: inline-block;
+    background: #f9004d;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+    cursor: pointer;
+
+
+}
+
+.contact-form form .btn:hover{
+    border: 2px solid #f9004d;
+    background: transparent;
+    transform: scale(1.1);
+}
